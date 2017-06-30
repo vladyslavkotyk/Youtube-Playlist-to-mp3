@@ -37,3 +37,12 @@ download.php
 ### Todo
     - Add error checking
     - Clean the code
+    
+### How to use it
+
+```
+1. Go to a youtube playlist and copy the GET Parameter (list)
+www.youtube.com/watch?v=0KSOMA3QBU0&list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj
+2. list = PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj
+3. And paste on the input and press Process Playlist
+```
