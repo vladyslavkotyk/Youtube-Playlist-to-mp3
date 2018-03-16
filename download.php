@@ -4,7 +4,7 @@ define("DIRECTORY", "/home/ubuntu/workspace/cache/");
 
 if (isset($_GET['id'])) {
     
-    download($_GET['id'], $_GET['name']);
+    download(escapeshellarg($_GET['id']), $_GET['name']);
 }
 
 function download($file, $name) {
